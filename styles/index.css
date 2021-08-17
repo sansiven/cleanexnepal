@@ -1,0 +1,51 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+/* 
+colors 
+main mantis #6fc06a
+secondary black #000000
+Alice blue #e2e9f1
+paradise pink #ef476f
+orange yellow crayola #ffd166
+*/
+
+.header-text {
+    color: #6fc06a
+}
+
+.menu-text{
+    color: #6fc06a
+}
+
+.menu-text:hover{
+    color: #6fc06a;
+    opacity: 0.7;
+}
+
+.nav-items-color{
+    color: #6fc06a;
+}
+.bg-nav-items-color{
+    background-color: #6fc06a;
+}
+.main-color-green{
+    background-color: #6fc06a;
+}
+.icon-color{
+    color: #ef476f;
+}
+.maybe_bg{
+    background: url('../public/img/3040791.jpg');
+}
+.bg-pattern-red{
+    background: url('../public/img/red-pattern.png');
+}
+.bg-red-pattern{
+    color:#c1272d;
+    background-color:#c1272d;
+}
