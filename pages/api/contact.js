@@ -17,7 +17,7 @@ export default function (req, res) {
 	const mailData = {
 		from: "THGAF mail forwarder <himalayangoat2020@gmail.com>",
 		//to: "sansiven@gmail.com, himalayangoat2020@gmail.com",
-		to:"sansiven@yopmail.com",
+		to:"cleanexnepal@gmail.com",
 		subject: `Message From ${req.body.name}`,
 		text: req.body.message + " | Sent from: " + req.body.email,
 		html: `<div><b>Message:</b> ${req.body.message}</div>

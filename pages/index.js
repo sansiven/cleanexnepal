@@ -23,16 +23,16 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <ParticlesBg color="#000000" num={100} type="lines" bg={true} />
+      <ParticlesBg  num={50} type="cobweb" bg={true} />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-blueGray-600">
+              <h2 className="font-semibold text-4xl nav-items-color">
                 Cleanex
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Cleanex toilet paper is woven like a washcloth and just cleans better than the leading bargain brand, so you can be Cleanex clean and proud of it.
+                Cleanex toilet paper is woven like a washcloth and just cleans better than the leading bargain brand, so you can be Cleanex clean and proud of it. <br/>Our Premium Paper Rolls are equipped with "floral" designs which are soft, absorbent and have high dry strength however they are much rapidly dissolving and disintegrate much faster than average toilet paper.
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Index() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+            <div className="w-10/12 md:w-6/12 lg:w-4/12 sm:w-12 md:px-4 mr-auto ml-auto -mt-32">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                 <img
                   alt="..."
@@ -91,7 +91,7 @@ export default function Index() {
                     Great for your household needs
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Cleanex provide you the soft products for your everyday use, like napkins, popup box, tissue paper, and toilet papers as well. Its "soft" because we care about you. Try te Cleanex and see for yourself.
+                    Cleanex provide you the soft products for your everyday use, like napkins, popup box, tissue paper, and toilet papers, kitchen rolls as well. Its "soft" because we care about you. Try te Cleanex and see for yourself.
                   </p>
                 </blockquote>
               </div>
@@ -109,8 +109,7 @@ export default function Index() {
                         Great options to choose from
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        {/* Notus NextJS comes with a huge number of Fully Coded CSS
-                        components. */}
+                        At Cleanex we provide you with the high quality options to choose from. You can get the popups refiller, napkins, toilet paper rolls.
                       </p>
                     </div>
                   </div>
@@ -134,7 +133,7 @@ export default function Index() {
                       <div className="icon-color p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-people-carry"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Popups</h6>
+                      <h6 className="text-xl mb-1 font-semibold">Toilet Papers</h6>
                       <p className="mb-4 text-blueGray-500">
                       Sixth called place land. Give seasons said whales winged under moved behold grass were our beginning open signs rule lights one he, very hath won't.
                       </p>
@@ -146,7 +145,7 @@ export default function Index() {
                         <i className="fas fa-leaf"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Fragrance
+                        Popups (instead write about 2 ply 3 ply?)
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                       Greater which fifth life our place cattle herb also dominion Was place waters good air. Void rule.
@@ -166,7 +165,7 @@ export default function Index() {
                 <i className="fas fa-sitemap text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Napkins And Tissue Papers
+                Papers and Design
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 Our Premium Paper Rolls are equipped with "floral" designs which are soft, absorbent and have high dry strength however they are much rapidly dissolving and disintegrate much faster than average toilet paper. Our Tissues are Eco- friendly, Bleach and chlorine free. These safe to use napkins are appreciated for their characteristics like bio-biodegradability, soft texture, easily disposable and highly absorbent.
@@ -224,27 +223,27 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
+                    href="img/6pack.jpg"
                     target="_blank"
                   >
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md max-w-full w-20 mx-auto bg-white"
-                        src="https://images.unsplash.com/photo-1583496597467-d968d2fa33a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+                        src="img/6pack.jpg"
                       />
                     
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
+                    href="/img/004.jpeg"
                     target="_blank"
                   >
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md max-w-full w-20 mx-auto bg-white"
-                        src="https://images.unsplash.com/photo-1589828994425-cee7c6e8dbf8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=786&q=80"
+                        src="/img/004.jpeg"
                       />
                       
                     </div>
@@ -252,7 +251,7 @@ export default function Index() {
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                    href="https://images.unsplash.com/photo-1618034229737-cb68d1277aa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
                     target="_blank"
                   >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
@@ -265,7 +264,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                    href="/img/asd1.png"
                     target="_blank"
                   >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -278,7 +277,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
+                    href="/img/cleanex 013.jpg"
                     target="_blank"
                   >
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -299,10 +298,10 @@ export default function Index() {
                 <i className="fas fa-recycle text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Great line of products
+                Great packages to choose from
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                At Cleanex we provide you with the high quality options to choose from. You can get the popups refiller, napkins, toilet paper rolls. 
+                To cater your needs, we have bundled our products into packages of 2 pieces, 6 pieces and 1o pieces of both the 2-ply and 3-ply paper rolls.
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 Our design inspired by washcloth-like cleaning featuring "floral" embossing patterns.<br/>Strong 2-ply and 3-ply paper to help clean better
@@ -322,6 +321,7 @@ export default function Index() {
       </section>
 
       <section className="block relative z-1 bg-black">
+      
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
@@ -330,12 +330,12 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Raw Materials
                   </h5>
-                  <Link href="/">
+                  <Link href="javascript:void(0)">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="https://images.unsplash.com/photo-1582282352927-04277241ea93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80"
+                        src="/img/rawmaterials.png"
                       />
                     </div>
                   </Link>
@@ -345,7 +345,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Processing
                   </h5>
-                  <Link href="/profile">
+                  <Link href="javascript:void(0)">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -360,7 +360,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Packaged Goods
                   </h5>
-                  <Link href="/landing">
+                  <Link href="javascript:void(0)">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -375,7 +375,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-
+      
       <section className="py-20 bg-black overflow-hidden">
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">
@@ -383,8 +383,8 @@ export default function Index() {
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 About Us
               </h3>
-              <p>We at Trident Manufacturers Private Limited have started our journey with aspirations and ambitions of leading the Nepali markets for a variety of Tissue Papers and Wet Wipes. Today, we are one of fastest rising names in the field because of our innovation-oriented and technology friendly work approaches. As a manufacturer, we are devoted to producing & supplying most value for money items to our prestigious customers residing all across Nepal and in future overseas as well. </p>
-              <p>We are here today after facing many thorns and cuts in our way, success doesn't come just simple it requires a lot patience and hard work. We started our company with many ideas and moulded ourselves on our way facing many hinders to cross the boundaries and this is not our place there is still so much to go let me join you all in lifting the thorns in paving better paths and developing better services on the way, its now time for us to grow with Sun Rite Crafts & Papers.</p>
+              <p>We at Trident Manufacturers Private Limited have started our journey with aspirations and ambitions of leading the Nepali markets for a variety of multipurpose Tissue Papers  etc under the brand name CLEANEX. Today, we are one of fastest rising names in the field because of our innovation-oriented and technology friendly work approaches. As a manufacturer, we are devoted to producing & supplying most value for money items to our prestigious customers residing all across Nepal and in future overseas as well. </p>
+              <p>Trident manufacturers  is the only company in Nepal which is using the latest Chinese technology, machines and produces the finest product in the market. We bring the skilled manpower from India and Bangladesh who are best at their work. Our company's main objective is to provide the best product to the consumers at a reasonable price. We have been here since 2019 , and the feedback we get is positive and we feel we are going in the right direction with support from you. </p>
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
@@ -416,7 +416,7 @@ export default function Index() {
         </div>
 
         <div className="container mx-auto">
-          <div className="maybe_bg flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
+          <div className="maybe_bg flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 sm:px-6 md:px-8 lg:px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center">
                 {/* <span role="img" aria-label="love">
@@ -449,6 +449,7 @@ export default function Index() {
         </div>
       </section>
       <Footer />
+      
       {/* <MouseParticles g={1} color="random" cull="col,image-wrapper"/> */}
       <MouseParticles g={1} num={6} color="random" cull="stats,image-wrapper" level={6} />
     </>

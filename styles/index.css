@@ -49,3 +49,6 @@ orange yellow crayola #ffd166
     color:#c1272d;
     background-color:#c1272d;
 }
+.kaku>div:first-child, .mama>div:first-child{
+    margin-top: 8rem;
+}

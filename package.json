@@ -1,8 +1,8 @@
 {
   "name": "cleanexnepal",
   "version": "1.1.0",
-  "description": "Notus NextJS - A free Tailwind CSS, NextJS and React Ui Kit and Admin by Creative Tim.",
-  "repository": "https://github.com/creativetimofficial/notus-nextjs",
+  "description": "A product showcase of Trident Manufacturers, designed and developed by The Himalayan Goat.",
+  "repository": "https://github.com/sansiven/cleanexnepal",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
