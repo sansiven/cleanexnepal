@@ -23,7 +23,7 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <ParticlesBg  num={50} type="cobweb" bg={true} />
+      <ParticlesBg color="#6fc06a" num={50} type="cobweb" bg={true} />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -119,10 +119,10 @@ export default function Index() {
                         <i className="fas fa-hand-sparkles"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Napkins
+                        Toilet Paper
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                      Sixth. Days replenish creepeth bearing lesser give beast can't fish own abundantly you're bring thing given creeping firmament land. 
+                      We provide you with different rolls and weight. See below forfurther information.  
                       </p>
                     </div>
                   </div>
@@ -133,9 +133,9 @@ export default function Index() {
                       <div className="icon-color p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-people-carry"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Toilet Papers</h6>
+                      <h6 className="text-xl mb-1 font-semibold">Napkins</h6>
                       <p className="mb-4 text-blueGray-500">
-                      Sixth called place land. Give seasons said whales winged under moved behold grass were our beginning open signs rule lights one he, very hath won't.
+                      Get our popups napkins either to put in your popup-box or for general use. We also provide popup-box as well.
                       </p>
                     </div>
                   </div>
@@ -145,10 +145,10 @@ export default function Index() {
                         <i className="fas fa-leaf"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Popups (instead write about 2 ply 3 ply?)
+                        What is "ply" ?
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                      Greater which fifth life our place cattle herb also dominion Was place waters good air. Void rule.
+                      The word "ply" simply refers to the amount of layers that toilet paper has. At Cleanex, we provide 3-ply and 3-ply papers with the highest quality.
                       </p>
                     </div>
                   </div>
