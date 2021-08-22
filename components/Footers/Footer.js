@@ -57,7 +57,7 @@ export default function Footer() {
               <div className="flex flex-wrap items-top">
                 
                   <div className="footer_logo ">
-                    <img src="/img/CLEANEX RGB LOGO COLOR .png" alt="footer_logo" />
+                    <img src="/img/cleanex-logo.png" alt="footer_logo" />
                   </div>
                 
               </div>

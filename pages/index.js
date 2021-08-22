@@ -417,7 +417,7 @@ export default function Index() {
 
         <div className="container mx-auto">
           <div className="maybe_bg flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 sm:px-6 md:px-8 lg:px-12 relative z-10">
-            <div className="w-full text-center lg:w-8/12">
+            <div className="w-full text-center lg:w-8/12" id="bulk">
               <p className="text-4xl text-center">
                 {/* <span role="img" aria-label="love">
                   😍
@@ -430,7 +430,7 @@ export default function Index() {
                 If you want to try some samples or leave with a bulk order or any other requests, leave us a message. We will get back to you in 2-3 business days. 
               </p>
               
-              <div className="sm:block flex flex-col mt-10">
+              <div className="sm:block flex flex-col mt-10" >
                 <div className="w-full lg:w-6 px-4">
                   <ContactForm />
                 </div>
