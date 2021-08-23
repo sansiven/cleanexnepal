@@ -12,6 +12,7 @@ secondary black #000000
 Alice blue #e2e9f1
 paradise pink #ef476f
 orange yellow crayola #ffd166
+slow pink #c660b7
 */
 
 .header-text {
@@ -41,6 +42,7 @@ orange yellow crayola #ffd166
 }
 .maybe_bg{
     background: url('../public/img/3040791.jpg');
+    background-size: cover;
 }
 .bg-pattern-red{
     background: url('../public/img/red-pattern.png');
@@ -51,4 +53,7 @@ orange yellow crayola #ffd166
 }
 .kaku>div:first-child, .mama>div:first-child{
     margin-top: 8rem;
+}
+.keen-slider.cleanex{
+    margin-top: 10rem;
 }

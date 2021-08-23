@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Footer() {
   return (
     <>
@@ -38,19 +38,22 @@ export default function Footer() {
                 >
                   <i className="fab fa-youtube"></i>
                 </button>
+                <Link href="https://www.facebook.com/cleanexnepal">
                 <button
                   className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
                   <i className="fab fa-facebook-square"></i>
                 </button>
+                </Link>
+                <Link href="https://www.instagram.com/cleanextissuesnepal/" target="_blank">
                 <button
                   className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
                   <i className="fab fa-instagram"></i>
                 </button>
-                
+                </Link>
               </div>
             </div>
             <div className="w-full lg:w-4/12 px-4">

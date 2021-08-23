@@ -13,6 +13,7 @@
     "gsap": "^3.7.1",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
+    "keen-slider": "^5.5.1",
     "next": "10.0.9",
     "nodemailer": "^6.6.3",
     "particles-bg": "^2.5.5",
