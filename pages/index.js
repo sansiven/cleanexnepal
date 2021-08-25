@@ -126,7 +126,7 @@ export default function Index() {
 				<div className="container mx-auto">
 					<div className="flex flex-wrap items-center">
 						<div className="w-10/12 md:w-6/12 lg:w-4/12 sm:w-12 md:px-4 mr-auto ml-auto -mt-32">
-							<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+							<div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
 								<img
 									alt="..."
 									src="https://images.unsplash.com/photo-1545039986-62628085718b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
@@ -271,31 +271,31 @@ export default function Index() {
 						</div>
 
 						<div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
-							<div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
+							<div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0 small-screen">
 								<img
 									alt="..."
 									src="/img/cleanex white.png"
-									className="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
+									className="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3 changeable-cleanex-white"
 								/>
 								<img
 									alt="..."
 									src="/img/cleanex2.png"
-									className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
+									className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px changeable-img-three"
 								/>
 								<img
 									alt="..."
 									src="https://images.unsplash.com/photo-1588318072736-5d5a82354cb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
-									className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
+									className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2 changeable-img-black"
 								/>
 								<img
 									alt="..."
 									src="https://images.unsplash.com/photo-1609840112990-4265448268d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=776&q=80"
-									className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
+									className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px changeable-img-yellow"
 								/>
 								<img
 									alt="..."
 									src="/img/cleanex pink.png"
-									className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
+									className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px changeable-cleanex-pink"
 								/>
 							</div>
 						</div>
@@ -307,19 +307,40 @@ export default function Index() {
 							<img alt="..." src="/img/cleanex 026.jpg" />
 						</div>
 						<div className="keen-slider__slide number-slide2">
-							<img alt="..." src="/img/cleanex 047-2.jpeg" />
+							<img alt="..." src="/img/1orange.jpg" />
+						</div>
+						<div className="keen-slider__slide number-slide2">
+							<img alt="..." src="/img/4orange.jpg" />
 						</div>
 						<div className="keen-slider__slide number-slide3">
-							<img alt="..." src="/img/cleanex 061-1-01.jpeg" />
+							<img alt="..." src="/img/6pack_orange.jpg" />
+						</div>
+						<div className="keen-slider__slide number-slide2">
+							<img alt="..." src="/img/10pack_orange.jpg" />
+						</div>
+						<div className="keen-slider__slide number-slide3">
+							<img alt="..." src="/img/1red.jpg" />
+						</div>
+						<div className="keen-slider__slide number-slide3">
+							<img alt="..." src="/img/4red.jpg" />
+						</div>
+						<div className="keen-slider__slide number-slide3">
+							<img alt="..." src="/img/6pack_red.jpg" />
+						</div>
+						<div className="keen-slider__slide number-slide3">
+							<img alt="..." src="/img/10pack_red.jpg" />
 						</div>
 						<div className="keen-slider__slide number-slide4">
 							<img alt="..." src="/img/cleanex 144.jpg" />
 						</div>
-						<div className="keen-slider__slide number-slide5">
-							<img alt="..." src="/img/cleanex 065.jpg" />
+						<div className="keen-slider__slide number-slide3">
+							<img alt="..." src="/img/4pack.jpg" />
 						</div>
-						<div className="keen-slider__slide number-slide5">
+						<div className="keen-slider__slide number-slide3">
 							<img alt="..." src="/img/6pack.jpg" />
+						</div>
+						<div className="keen-slider__slide number-slide3">
+							<img alt="..." src="/img/10pack.jpg" />
 						</div>
 						<div className="keen-slider__slide number-slide5">
 							<img alt="..." src="/img/004.jpeg" />
@@ -452,18 +473,6 @@ export default function Index() {
 				<div className="container mx-auto">
 					<div className="justify-center flex flex-wrap">
 						<div className="w-full lg:w-12/12 px-4  -mt-24">
-							{/* <div class="flex flex-wrap"><div class="w-full lg:w-3/12 px-4"><h5 class="text-xl font-semibold pb-4 text-center">Raw Materials</h5><div class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"><img alt="..." class="align-middle border-none max-w-full h-auto rounded-lg" src="/img/rawmaterials.png"></div></div><div class="w-full lg:w-6/12 px-4"><h5 class="text-xl font-semibold pb-4 text-center">Processing</h5><div class="hover:-mt-4 relative flex min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150" style="
-    flex-direction: row;
-    background: transparent;
-    
-"><div class="w-full px-5" style="
-padding: 5px;
-background: transparent;
-"><img alt="..." class="align-middle border-none max-w-full h-auto rounded-lg" src="/img/cleanex 020.jpg"></div>
-<div class="w-full px-5" style="
-padding: 5px;
-"><img alt="..." class="align-middle border-none max-w-full h-auto rounded-lg" src="/img/cleanex 020.jpg"></div>
-</div></div><div class="w-full lg:w-3/12 px-4"><h5 class="text-xl font-semibold pb-4 text-center">Packaged Goods</h5><div class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"><img alt="..." class="align-middle border-none max-w-full h-auto rounded-lg" src="/img/cleanex 045.jpg"></div></div></div> */}
 							<div className="flex flex-wrap">
 								<div className="w-full lg:w-4/12 px-4">
 									<h5 className="text-xl font-semibold pb-4 text-center">
@@ -485,14 +494,14 @@ padding: 5px;
 										Processing
 									</h5>
 									{/* <Link href="javascript:void(0)"> */}
-										<div className="hover:-mt-4 relative flex flex-row min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+										<div className="hover:-mt-4 relative flex flex-row min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150" style={{background:'transparent', justifyContent:'center'}}>
 											<img
 												alt="..."
 												className="align-middle border-none max-w-full h-auto rounded-lg"
 												src="/img/processing_img_1.png"
 											/>
 										</div>
-										<div className="hover:-mt-4 relative flex flex-row min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+										<div className="hover:-mt-4 relative flex flex-row min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150 bg-transparent justify-items-center" style={{background:'transparent', justifyContent:'center'}}>
 											<img
 												alt="..."
 												className="align-middle border-none max-w-full h-auto rounded-lg"

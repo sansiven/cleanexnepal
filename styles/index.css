@@ -57,3 +57,55 @@ slow pink #c660b7
 .keen-slider.cleanex{
     margin-top: 10rem;
 }
+
+
+
+/* @media screen and (max-width: 640px){
+    .small-screen{
+        width: 45%;
+    }
+    .changeable-img-black{
+        left: 46px;
+    }
+    .changeable-img-yellow{
+        left: -10px;
+    }
+    .changeable-img-three{
+        left: 225px;
+    }
+    .changeable-cleanex-pink{
+        top: 60px;
+    }
+} */
+@media screen and (max-width: 768px) {
+    .small-screen{
+        width: 45%;
+    }
+    .changeable-img-black{
+        left: 20%;
+    }
+    .changeable-img-yellow{
+        left: -3%;
+    }
+    .changeable-img-three{
+        left: 125%;
+    }
+    .changeable-cleanex-pink{
+        top: 3rem;
+        left: 110%;
+    }
+    .changeable-cleanex-white{
+        top: -3rem;
+        left: 70%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+    .small-screen{
+        width: 54%;
+    }
+}
+
+
