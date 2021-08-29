@@ -146,10 +146,7 @@ export default function Profile() {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        An engineer by trade, entrepreneur at heart, West Nepal born, 
-                        kathmandu-based Ayush is a multitasker, and interested in 
-                        running and operating businesses and enterprises. Give him 
-                        a call or connect with him on facebook. A person of utmost trust.
+                      Being born and brought up in a family with diverse business background, started off with getting involved in a logistic business and later founded a two wheeler automobile trading enterprise. Despite being engineering student, got enrolled in a commerce degree program to achieve technical knowledge of the field and to fulfill the keen interest of becoming a successful enterprenuer….
                       </p>
                     </div>
                   </div>

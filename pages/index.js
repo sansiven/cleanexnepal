@@ -173,12 +173,12 @@ export default function Index() {
 												Kitchen Towels
 											</h6>
 											<p className="mb-4 text-blueGray-500">
-												Cleanex orovide you a convenient
-												alternative to cloth bathromm
+												Cleanex provide you a convenient
+												alternative to cloth bathroom
 												towels, these clean, fresh,
 												disposable hand towels promote
 												health and hygience and we
-												provide with easy-to-acess box
+												provide with easy-to-access box
 												as well.
 											</p>
 										</div>
@@ -448,9 +448,9 @@ export default function Index() {
 								<br/><br/>
 								Our <span className="text-red-500"><b>Red</b></span> pack weighs about 130gm of 3-ply paper.
 								<br/><br/>
-								Our <span className="text-blue-500"><b>Blue</b></span> pack weighs about 170gm of 2-ply paper.
+								Our <span className="text-blue-cleanex"><b>Blue</b></span> pack weighs about 170gm of 2-ply paper.
 								<br/><br/>
-								Our Popup pack weighs about 160gm which is a 2-ply paper.
+								Our Popup pack to refill your popup boxes made up of 2-ply paper.
 							</p>
 						</div>
 					</div>
