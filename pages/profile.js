@@ -94,7 +94,7 @@ export default function Profile() {
                         An engineer by trade, entrepreneur at heart, West Nepal born, 
                         kathmandu-based Ayush is a multitasker, and interested in 
                         running and operating businesses and enterprises. Give him 
-                        a call or connect with him on facsebook. A person of utmost trust.
+                        a call or connect with him on facebook. A person of utmost trust.
                       </p>
                     </div>
                   </div>
