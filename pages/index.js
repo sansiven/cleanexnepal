@@ -450,7 +450,7 @@ export default function Index() {
 								<br/><br/>
 								Our <span className="text-blue-cleanex"><b>Blue</b></span> pack weighs about 170gm of 2-ply paper.
 								<br/><br/>
-								Our Popup pack to refill your popup boxes made up of 2-ply paper.
+								Our Popup pack weighs about 50gm +- made up of 2-ply paper.
 							</p>
 						</div>
 					</div>
