@@ -190,7 +190,7 @@ export default function Profile() {
                   </div>
                   <div className="mb-2 text-blueGray-600 mt-10">
                     <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
-                    Managing Director - Trident Manufacturers
+                    CoFounder / Managing Director - Trident Manufacturers
                   </div>
                   
                 </div>
@@ -198,10 +198,9 @@ export default function Profile() {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        An engineer by trade, entrepreneur at heart, West Nepal born, 
-                        kathmandu-based Ayush is a multitasker, and interested in 
-                        running and operating businesses and enterprises. Give him 
-                        a call or connect with him on facsebook. A person of utmost trust.
+                      Driven by objective to flourish in  manufacturing sector determined to influence the market with domestic product which can equally provide quality with fair price over imported goods. 
+
+                      A Chartered Certified Accountant and BSc Hons in Accounting graduate from Oxford Brookes University, UK with professional background of auditing, accounting, and financial management. With professional and academic qualification in management domain including seven years and above working experiences in audit and account field in various sector as well as close association with Suraj Brick Industries which is currently employing more than 200 workers,  I am enthusiastically looking forward to serving the market with best and quality products that are "Made in Nepal" and maintaining the organisation's value.
                       </p>
                     </div>
                   </div>
