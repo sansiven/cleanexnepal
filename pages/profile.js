@@ -199,7 +199,7 @@ export default function Profile() {
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                       Driven by objective to flourish in  manufacturing sector determined to influence the market with domestic product which can equally provide quality with fair price over imported goods. 
-
+<br/>
                       A Chartered Certified Accountant and BSc Hons in Accounting graduate from Oxford Brookes University, UK with professional background of auditing, accounting, and financial management. With professional and academic qualification in management domain including seven years and above working experiences in audit and account field in various sector as well as close association with Suraj Brick Industries which is currently employing more than 200 workers,  I am enthusiastically looking forward to serving the market with best and quality products that are "Made in Nepal" and maintaining the organisation's value.
                       </p>
                     </div>
